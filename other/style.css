@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to bottom right, rgb(107,32,255), #00ff73);
+    background-image: linear-gradient(to bottom right, rgb(107, 32, 255), rgb(32, 255, 117));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,32 +34,36 @@ body {
 .new-quote {
     padding: 8px 16px;
     background-color: rgb(107, 32, 255);
-    color: #00ff62;
+    color: rgb(32, 255, 117);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-
 .new-quote:hover {
-    background-color: #00ff73;
+    background-color: rgb(32, 255, 117);
     color: rgb(107, 32, 255);
     transition: 0.75s;
 }
 
-#homeButton {
+#stickyButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 8px 16px;
     background-color: rgb(107, 32, 255);
-    color: #00ff62;
-    text-align: center;
+    color: rgb(32, 255, 117);
     border: none;
-    border-top-right-radius: 22px;
-    border-bottom-right-radius: 22px;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
+    border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#homeButton:hover {
-    background-color: #00ff73;
+#stickyButton:hover {
+    background-color: rgb(32, 255, 117);
     color: rgb(107, 32, 255);
     transition: 0.75s;
 }
