@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-image: linear-gradient(to bottom right, rgb(107, 32, 255), rgb(32, 255, 117)); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+/* Prime Number Finder Button: */
+#pnf_button {
+    padding: 8px 16px; 
+    background-color: rgb(107, 32, 255); 
+    color: rgb(32, 255, 117); 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#pnf_button:hover {
+    background-color: rgb(32, 255, 117); 
+    color: rgb(107, 32, 255); 
+    transition: 0.75s; 
+}
+
+#pnf_button:focus {     
+    background-color: rgb(32, 255, 117); 
+    color: rgb(107, 32, 255); 
+}
+
+/* Quote Generator Button: */
+#qg_button {
+    padding: 8px 16px; 
+    background-color: rgb(107, 32, 255); 
+    color: rgb(32, 255, 117); 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#qg_button:hover {
+    background-color: rgb(32, 255, 117); 
+    color: rgb(107, 32, 255); 
+    transition: 0.75s; 
+}
+
+#qg_button:focus {     
+    background-color: rgb(32, 255, 117); 
+    color: rgb(107, 32, 255); 
+}
+
+
+
+/* Change Background Button: */
+#stickyButton {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    width: 100px; 
+    height: 40px; 
+    padding: 8px 16px; 
+    background-color: rgb(107, 32, 255); 
+    color: rgb(32, 255, 117); 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#stickyButton:hover {
+    background-color: rgb(32, 255, 117); 
+    color: rgb(107, 32, 255); 
+    transition: 0.75s; 
+}
+
+#stickyButton:focus {     
+    background-color: rgb(32, 255, 117); 
+    color: rgb(107, 32, 255); 
+}
